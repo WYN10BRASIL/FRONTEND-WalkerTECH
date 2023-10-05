@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mediana.css">
+  <title>MediaAritmetica</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="asd">←</a>
+    <h1>Calcula la <strong>Media Aritmetica</strong> de cualquier lista</h1>
+    
+  </header>
+  <div class="main-container">
+    <form action="">
+      <label for="inputLista">
+        Escribe un <strong>Nuevo Valor</strong> a la lista
+      </label>
+      <input type="number" id="inputLista" class="inputLista" id="inputLista"/>
+      <input type="button"  class="btn-grad-b" value="Agregar numero a lista" onclick="meterValorLista()">
+      <input type="button"  class="btn-grad" value="Calcular Media Aritmetica" onclick="CalcularMediaAritmeticaBtn()" id="btn-abrir-popup">
+    </form>
+  </div>
+    <h2>Lista de elementos</h2>
+    <p id="lista"></p>
+    <h3>Resultado:</h3>
+    <p id="Resultado"></p>
+
+  <script src="./mediana.js"></script>
+
+</body>
+</html>
